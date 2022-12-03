@@ -5,7 +5,6 @@ An example project demostrating deployment of angular application in nginx using
 == How to run
 
 * Clone the project.
-[source,shell]
 
 ----
 
@@ -18,9 +17,6 @@ $git clone <https://github.com/thiambabacar97/cvtech-BT-angular-docker.git>
 
 * Build the image
 
-+
-
-[source,shell]
 ----
 
 $docker build -t cvtech-html-csst
@@ -28,9 +24,6 @@ $docker build -t cvtech-html-csst
 
 * Create and start the container as daemon
 
-+
-
-[source,shell]
 ----
 
 $ docker run --name cvtech-htmlcss -p 8081:80 -d cvtech-htmlcss
@@ -44,17 +37,12 @@ Open browser and use docker server URL to access the application. for example if
 
 * List images
 
-+
-
-[source,shell]
 ----
 
 $ docker images
 ----
 
 * List running containers
-
-+
 
 [source,shell]
 ----
@@ -64,9 +52,6 @@ $ docker ps
 
 * List all containers both running and stopped
 
-+
-
-[source,shell]
 ----
 
 $ docker ps -a
@@ -74,9 +59,6 @@ $ docker ps -a
 
 * Remove container
 
-+
-
-[source,shell]
 ----
 
 $ docker rm kp-container
@@ -86,9 +68,6 @@ NOTE: use `-f` to remove running containers `docker rm -f kp-container`
 
 * Remove image
 
-+
-
-[source,shell]
 ----
 
 $ docker rmi angular-nginx-docker
@@ -96,9 +75,6 @@ $ docker rmi angular-nginx-docker
 
 * Remove containers and images using docker-compose
 
-+
-
-[source,shell]
 ----
 
 $ docker-compose down --rmi all
