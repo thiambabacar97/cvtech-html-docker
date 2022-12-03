@@ -1,14 +1,12 @@
-= Angular NGINX Docker example
+= Html/Css Docker example
 
 An example project demostrating deployment of angular application in nginx using docker.
 
 == How to run
 
 * Clone the project.
-
-+
-
 [source,shell]
+
 ----
 
 $git clone <https://github.com/thiambabacar97/cvtech-BT-angular-docker.git>
